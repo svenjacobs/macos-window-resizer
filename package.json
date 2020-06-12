@@ -1,0 +1,27 @@
+{
+  "name": "macos-window-resizer",
+  "version": "0.1.0",
+  "description": "macOS command line application for resizing windows",
+  "keywords": [
+    "macos",
+    "window",
+    "resize",
+    "resizer",
+    "cli"
+  ],
+  "bin": {
+    "resizer": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sven Jacobs <mail@svenjacobs.com>",
+  "license": "MIT",
+  "repository": "github:svenjacobs/macos-window-resizer",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "inquirer-search-list": "^1.2.6",
+    "mac-screen-capture-permissions": "^1.1.0",
+    "node-window-manager": "^2.2.3"
+  }
+}
